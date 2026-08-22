@@ -108,7 +108,7 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav  mx-auto ">
+                        <ul class="navbar-nav  mx-auto " style="font-size:10px;">
                             <li class="nav-item @(action=="Index" & controller == "Home" ? "active":"")">
                                 <a class="nav-link" asp-action="Index">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -120,6 +120,12 @@
                             </li>
                             <li class="nav-item @(action == "Book" & controller == "Home" ? "active" : "")">
                                 <a class="nav-link" asp-action="Book">Book Table</a>
+                            </li>
+                            <li class="nav-item @(action == "AddMenu" & controller == "Home" ? "active" : "")">
+                                <a class="nav-link" asp-action="AddMenu">Add Menu</a>
+                            </li>
+                            <li class="nav-item @(action == "AddFood" & controller == "Home" ? "active" : "")">
+                                <a class="nav-link" asp-action="AddFood">Add Food </a>
                             </li>
                         </ul>
                         <div class="user_option">

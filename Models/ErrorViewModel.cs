@@ -1,4 +1,4 @@
-namespace ResturantApplication.Models
+namespace RestaurantApplication.Models
 {
     public class ErrorViewModel
     {
