@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Category>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <a class="btn btn-outline-primary" asp-action="Create">Add Category</a>
+</div>
+@if (TempData["SuccessMsg"] != null)
+{
+    <div>@TempData["SuccessMsg"]</div>
+}
+<table>
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Actions</th>
+        </tr>
+        
+
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr id="category-row-@item.Id">
+            <td>@item.Name</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+            </td>
+            <td>
+                    <button onclick="deleteCategory('@Url.Action("Delete", "Category" , new { id=item.Id})')" type="submit" class="btn btn-danger">Delete</button>
+            </td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+
+     @section Scripts {
+        <script>
+            function deleteCategory(url) {
+                Swal.fire({
+          title: "Do you want to Delete This Category?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+          showDenyButton: true,
+          showCancelButton: true,
+          confirmButtonText: "Delete",
+          denyButtonText: `No`
+        }).then((result) => {
+          /* Read more about isConfirmed, isDenied below */
+          if (result.isConfirmed){
+                      $.ajax({
+          url: url,
+          method: 'POST',
+          dataType: 'json',
+          success: function(data) {
+              if(data.success) {
+                  // Remove the deleted category row from the table
+                  $('#category-row-' + data.categoryId).remove();
+                Swal.fire("Item Deleted!", data.message, "success");
+
+              }else {
+                  Swal.fire("An Error Occurred During Delete the Category!", data.message, "error");
+              }
+          },
+          error: function(error) {
+            Swal.fire("An Error Occurred During Connect the Server!", "Error!", "error");
+          }
+        });
+
+              
+          }
+          else if (result.isDenied) {
+              Swal.fire("Category do not Deleted", "", "info");
+          }
+        });
+        }
+    </script>
+     }

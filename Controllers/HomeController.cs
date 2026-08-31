@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RestaurantApplication.Data;
 using RestaurantApplication.Models;
 
 namespace RestaurantApplication.Controllers
@@ -7,10 +9,12 @@ namespace RestaurantApplication.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly RestaurantDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,RestaurantDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -21,13 +25,17 @@ namespace RestaurantApplication.Controllers
         {
             return View();
         }
+       
         public IActionResult Menu()
         {
-            return View();
+            var categories = _context.Categories.Include(a => a.Foods).ToList();
+
+            return View(categories);
         }
         public IActionResult About()
         {
             return View();
+
         }
 
         public IActionResult Privacy()
