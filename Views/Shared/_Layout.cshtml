@@ -121,11 +121,11 @@
                             <li class="nav-item @(action == "Book" & controller == "Home" ? "active" : "")">
                                 <a class="nav-link" asp-action="Book">Book Table</a>
                             </li>
-                            <li class="nav-item @(action == "AddMenu" & controller == "Home" ? "active" : "")">
+                            <li class="nav-item @(action == "Index" & controller == "Category" ? "active" : "")">
                                 <a class="nav-link" asp-action="Index" asp-controller="Category">Categories</a>
                             </li>
-                            <li class="nav-item @(action == "AddFood" & controller == "Home" ? "active" : "")">
-                                <a class="nav-link" asp-action="AddFood">Add Food </a>
+                            <li class="nav-item @(action == "Index" & controller == "Food" ? "active" : "")">
+                                <a class="nav-link" asp-action="Index" asp-controller="Food">Foods </a>
                             </li>
                         </ul>
                         <div class="user_option">
