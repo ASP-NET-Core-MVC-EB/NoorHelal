@@ -1,0 +1,17 @@
+﻿@model List<BookApplication.Models.Author>
+@{
+
+}
+
+<h2>Authors</h2>
+<ul>
+    @foreach (var author in Model)
+    {
+        <li>
+            <strong>@author.Name</strong>
+            <a asp-action="Details" asp-route-id="@author.Id">
+                View Details
+            </a>
+        </li>
+    }
+</ul>

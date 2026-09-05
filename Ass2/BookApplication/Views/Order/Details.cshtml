@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order #@Model.Id</h2>
+<p><strong>Book:</strong> @Model.Book?.Title</p>
+<p><strong>Customer:</strong> @Model.Customer?.FullName</p>
+<p><strong>Seller:</strong> @Model.Seller?.Name</p>

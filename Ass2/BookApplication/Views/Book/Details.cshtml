@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2>@Model.Title</h2>
+<p><strong>Description:</strong> @Model.Description</p>
+<p><strong>Author:</strong> @Model.Author?.Name</p>
+<p><strong>Category:</strong> @Model.Category?.Name</p>
+
+<h4>Orders for this book</h4>
+@if (Model.Orders != null && Model.Orders.Any())
+{
+    <ul>
+        @foreach (var order in Model.Orders)
+        {
+            <li>Order #@order.Id - Customer: @order.Customer?.Name, Seller: @order.Seller?.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No orders yet for this book.</p>
+}

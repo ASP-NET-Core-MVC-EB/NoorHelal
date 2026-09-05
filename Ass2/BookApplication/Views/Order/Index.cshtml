@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Book</th>
+            <th>Customer</th>
+            <th>Seller</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.Book?.Title</td>
+                <td>@order.Customer?.FullName</td>
+                <td>@order.Seller?.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@order.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

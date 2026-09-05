@@ -1,0 +1,22 @@
+﻿@model BookApplication.Models.Customer
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<h2>@Model.FullName</h2>
+<p><strong>Email:</strong> @Model.Email</p>
+
+<h4>Orders</h4>
+@if (Model.Orders != null)
+{
+    <ul>
+        @foreach (var order in Model.Orders)
+        {
+            <li>Order #@order.Id - Book: @order.Book?.Title, Seller: @order.Seller?.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No orders yet.</p>
+}

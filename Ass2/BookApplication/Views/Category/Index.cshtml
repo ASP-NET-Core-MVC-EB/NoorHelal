@@ -1,0 +1,15 @@
+﻿@model List<BookApplication.Models.Category>
+@{
+
+}
+
+<h2>Categories</h2>
+<ul>
+@foreach (var category in Model)
+{
+    <li>
+        <strong>@category.Name</strong>
+        <a asp-action="Details" asp-route-id="@category.Id">View Details</a>
+    </li>
+}
+</ul>
