@@ -1,0 +1,384 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.NET Core MVC\\RestaurantApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\food\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\food\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\food\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\food\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\viewmodel\\foodvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:viewmodel\\foodvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\migrations\\20260831052557_adddisplayordertocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:migrations\\20260831052557_adddisplayordertocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\restaurantapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:restaurantapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\migrations\\20260823084441_addimagecolumntofoodtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:migrations\\20260823084441_addimagecolumntofoodtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|d:\\asp.net core mvc\\restaurantapplication\\migrations\\20260823085254_insertdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0884CB0-A9B0-CA97-705E-9055AA894995}|RestaurantApplication.csproj|solutionrelative:migrations\\20260823085254_insertdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Food\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Food\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Food\\Index.cshtml",
+              "RelativeToolTip": "Views\\Food\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T07:39:09.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodVM.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\ViewModel\\FoodVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FoodVM.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\ViewModel\\FoodVM.cs",
+              "RelativeToolTip": "ViewModel\\FoodVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T07:28:03.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Food\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Food\\Create.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Food\\Create.cshtml",
+              "RelativeToolTip": "Views\\Food\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T07:22:48.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FoodController.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "Controllers\\FoodController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T07:19:36.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "Models\\Food.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Models\\Food.cs",
+              "RelativeToolTip": "Models\\Food.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:41:51.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Menu.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-23T08:30:01.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAHwAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T06:49:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:56:15.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:34:13.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:56:40.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T07:53:25.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-31T08:57:11.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T09:00:33.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T05:30:24.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RestaurantDbContext.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Data\\RestaurantDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\RestaurantDbContext.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Data\\RestaurantDbContext.cs",
+              "RelativeToolTip": "Data\\RestaurantDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T07:56:50.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260831052557_AddDisplayOrderToCategory.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260831052557_AddDisplayOrderToCategory.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260831052557_AddDisplayOrderToCategory.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260831052557_AddDisplayOrderToCategory.cs",
+              "RelativeToolTip": "Migrations\\20260831052557_AddDisplayOrderToCategory.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T05:25:58.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T07:59:31.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RestaurantApplication.csproj",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\RestaurantApplication.csproj",
+              "RelativeDocumentMoniker": "RestaurantApplication.csproj",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\RestaurantApplication.csproj",
+              "RelativeToolTip": "RestaurantApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-26T06:49:05.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-23T08:54:47.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260823085254_InsertData.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260823085254_InsertData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260823085254_InsertData.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260823085254_InsertData.cs",
+              "RelativeToolTip": "Migrations\\20260823085254_InsertData.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:52:55.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260823084441_AddImageColumnToFoodTable.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260823084441_AddImageColumnToFoodTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260823084441_AddImageColumnToFoodTable.cs",
+              "ToolTip": "D:\\ASP.NET Core MVC\\RestaurantApplication\\Migrations\\20260823084441_AddImageColumnToFoodTable.cs",
+              "RelativeToolTip": "Migrations\\20260823084441_AddImageColumnToFoodTable.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:44:45.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
