@@ -1,0 +1,66 @@
+﻿@model Food
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="/@Url.Content(Model.ImageUrl)" class="card-img-top" alt="Product Image">
+              
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h1 class="h2 mb-3">@Model.Name</h1>
+            <div class="mb-3">
+                <span class="h4 me-2">Price :</span>
+                <span class="h4 me-2">@Model.Price</span>
+            
+            </div>
+            <div class="mb-3">
+                <span class="h4 me-2">Category Name :</span>
+                <span class="h4 me-2">@Model.Category.Name</span>
+            
+            </div>
+
+            <div class="mb-3">
+                <div class="d-flex align-items-center">
+                    <div class="text-warning me-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="text-muted">(128 reviews)</span>
+                </div>
+            </div>
+
+            <p class="mb-4">
+                @Model.Description
+            </p>
+
+
+            <!-- Actions -->
+            <div class="d-grid gap-2">
+                <a asp-action="Edit" asp-route-id="@Model.Id" asp-route-from="details" class="btn btn-primary">Edit</a>
+                <button onclick="deleteFood('@Url.Action("Delete", "Food", new { id = Model.Id })','details')" type="submit" class="btn btn-outline-danger">
+                    <i class="far fa-Trash me-2"></i>Delete
+                </button>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-4">
+                <a asp-action="Index" asp-controller="Food" class="btn btn-primary">Go To Menu Food</a>
+
+            </div>
+        </div>
+    </div>
+</div>

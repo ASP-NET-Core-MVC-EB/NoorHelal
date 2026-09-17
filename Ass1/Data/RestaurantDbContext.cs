@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using RestaurantApplication.Models;
 
 namespace RestaurantApplication.Data
 {
-    public class RestaurantDbContext : DbContext
+    public class RestaurantDbContext : IdentityDbContext<ApplicationUser>
     {
         public RestaurantDbContext(DbContextOptions options) : base(options)
         {

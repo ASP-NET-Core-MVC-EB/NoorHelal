@@ -6,7 +6,10 @@
 }
 
 <!-- food section -->
-
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center rounded-3 my-4 py-4"> No Food Menu Match the Current Search Criteria! </div>
+}else{
 <section class="food_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
@@ -28,15 +31,15 @@
             <div class="row grid">
                
                     @foreach (var item in Model){
-                        
-                            <div class="col-sm-6 col-lg-4 all @item.Name">
                         @foreach (var food in item.Foods)
                         {
+                            <div class="col-sm-6 col-lg-4 all @item.Name">
+                        
 
                             <div class="box">
                                 <div>
                                     <div class="img-box">
-                                        <img src="@Url.Content(food.ImageUrl)" alt="">
+                                        <img src="/@Url.Content(food.ImageUrl)" alt="">
                                     </div>
                                     <div class="detail-box">
                                         <h5>
@@ -107,9 +110,9 @@
                                     </div>
                                 </div>
                             </div>
-                        }
+                        
                     </div>
-                            
+                        }    
                         }
                 
             </div>
@@ -123,5 +126,5 @@
         </div>
     </div>
 </section>
-
+}
 <!-- end food section -->

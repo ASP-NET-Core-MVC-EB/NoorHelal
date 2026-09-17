@@ -110,16 +110,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  mx-auto " style="font-size:10px;">
                             <li class="nav-item @(action=="Index" & controller == "Home" ? "active":"")">
-                                <a class="nav-link" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" asp-action="Index" asp-controller="Home">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item @(action == "Menu" & controller == "Home" ? "active" : "")">
-                                <a class="nav-link" asp-action="Menu">Menu</a>
+                                <a class="nav-link" asp-action="Menu" asp-controller="Home">Menu</a>
                             </li>
                             <li class="nav-item @(action == "About" & controller == "Home" ? "active" : "")">
-                                <a class="nav-link" asp-action="About">About</a>
+                                <a class="nav-link" asp-action="About" asp-controller="Home">About</a>
                             </li>
                             <li class="nav-item @(action == "Book" & controller == "Home" ? "active" : "")">
-                                <a class="nav-link" asp-action="Book">Book Table</a>
+                                <a class="nav-link" asp-action="Book" asp-controller="Home">Book Table</a>
                             </li>
                             <li class="nav-item @(action == "Index" & controller == "Category" ? "active" : "")">
                                 <a class="nav-link" asp-action="Index" asp-controller="Category">Categories</a>
@@ -127,8 +127,10 @@
                             <li class="nav-item @(action == "Index" & controller == "Food" ? "active" : "")">
                                 <a class="nav-link" asp-action="Index" asp-controller="Food">Foods </a>
                             </li>
+                            <partial name="_LoginPartial" />
+
                         </ul>
-                        <div class="user_option">
+                @*         <div class="user_option">
                             <a href="" class="user_link">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                             </a>
@@ -186,15 +188,11 @@
                   </g>
                 </svg>
                             </a>
-                            <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                            </form>
+                           
                             <a href="" class="order_online">
                                 Order Online
                             </a>
-                        </div>
+                        </div> *@
                     </div>
                 </nav>
             </div>
@@ -308,6 +306,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
     <!-- custom js -->
     <script src="~/js/custom.js"></script>
+    <script src="~/js/site.js"></script>
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
     </script>

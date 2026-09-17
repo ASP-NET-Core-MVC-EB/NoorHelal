@@ -1,4 +1,4 @@
-﻿@model Category
+﻿@model RestaurantApplication.ViewModel.FoodVM
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -6,18 +6,37 @@
 }
 
 
-<form asp-action="Edit" class="form" asp-route-id="Id">
-    <input class="form-control" asp-for="Id" type="hidden" />
+<form asp-action="Edit" class="form" enctype="multipart/form-data">
 
+    <input type="hidden" asp-for="Id"/>
+    <input type="hidden" asp-for="ImageUrl"/>
+    <input type="hidden" name="source" value="@ViewBag.source" />
     <div>
         <label asp-for="Name"></label>
-        <input class="form-control" asp-for="Name"/>
+        <input class="form-control" asp-for="Name" />
         <span asp-validation-for="Name"></span>
     </div>
     <div>
-        <label asp-for="DisplayOrder"></label>
-        <input class="form-control" asp-for="DisplayOrder" />
-        <span asp-validation-for="DisplayOrder"></span>
+        <label asp-for="Description"></label>
+        <input class="form-control" asp-for="Description" />
+        <span asp-validation-for="Description"></span>
     </div>
-    <button class="btn btn-success" type="submit">Edit</button>
+    <div>
+        <label asp-for="Price"></label>
+        <input class="form-control" asp-for="Price" />
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div>
+        <label asp-for="ImageFile"></label>
+        <input type="file" class="form-control" asp-for="ImageFile" />
+        <span asp-validation-for="ImageFile"></span>
+    </div>
+    <div>
+        <label asp-for="CategoryId"></label>
+        <select class="form-control" asp-for="CategoryId" asp-items="@Model.CategoryList">
+            <option value="" hidden>-- Choose Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId"></span>
+    </div>
+    <button class="btn btn-success" type="submit">Save</button>
 </form>

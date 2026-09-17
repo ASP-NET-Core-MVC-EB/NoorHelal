@@ -4,9 +4,13 @@
 *@
 @{
 }
+@if (User.IsInRole("Admin"))
+{
+
 <div class="m-5">
     <a class="btn btn-outline-primary" asp-action="Create">Add Food</a>
 </div>
+}
 @if (TempData["SuccessMsg"] != null)
 {
     <div>@TempData["SuccessMsg"]</div>
@@ -33,59 +37,23 @@
             <td>@item.Price</td>
             <td>@item.Description</td>
             <td>
-                <img src="@Url.Content(item.ImageUrl)" />
+                <img src="/@Url.Content(item.ImageUrl)" />
+            </td>
+            
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a>
+            </td>
+    @if (User.IsInRole("Admin"))
+    {
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" asp-route-from="Index" class="btn btn-success">Edit</a>
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                    <button onclick="deleteFood('@Url.Action("Delete", "Food" , new { id=item.Id})','index')" type="submit" class="btn btn-danger">Delete</button>
             </td>
-            <td>
-                    <button onclick="deleteCategory('@Url.Action("Delete", "Food" , new { id=item.Id})')" type="submit" class="btn btn-danger">Delete</button>
-            </td>
+    }
             </tr>
         }
         
     </tbody>
 </table>
-
-     @section Scripts {
-        <script>
-            function deleteCategory(url) {
-                Swal.fire({
-          title: "Do you want to Delete This Food?",
-        text: "You won't be able to revert this!",
-        icon: "warning",
-          showDenyButton: true,
-          showCancelButton: true,
-          confirmButtonText: "Delete",
-          denyButtonText: `No`
-        }).then((result) => {
-          /* Read more about isConfirmed, isDenied below */
-          if (result.isConfirmed){
-                      $.ajax({
-          url: url,
-          method: 'POST',
-          dataType: 'json',
-          success: function(data) {
-              if(data.success) {
-                  // Remove the deleted category row from the table
-                  $('#food-row-' + data.categoryId).remove();
-                Swal.fire("Item Deleted!", data.message, "success");
-
-              }else {
-                  Swal.fire("An Error Occurred During Delete the Food!", data.message, "error");
-              }
-          },
-          error: function(error) {
-            Swal.fire("An Error Occurred During Connect the Server!", "Error!", "error");
-          }
-        });
-
-              
-          }
-          else if (result.isDenied) {
-              Swal.fire("Food do not Deleted", "", "info");
-          }
-        });
-        }
-    </script>
-     }
